@@ -1,0 +1,78 @@
+/* TODO: Clean all of the up. */
+
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+p {
+    user-select: auto;
+    -moz-user-select: auto;
+    -khtml-user-select: auto;
+    -webkit-user-select: auto;
+    -o-user-select: auto;
+}
+
+body {
+    background: linear-gradient(#161718 0%, #191c1f 26%, #14171a 51%, #171d22 76%);
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #191c1f;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #0277bd;
+}
+
+i.fab {
+    text-shadow: 4px 4px 6px black;
+}
+
+i.material-icons {
+    text-shadow: 2px 2px 5px black;
+}
+
+.main-container-setup {
+    background: radial-gradient(#1f262e , transparent 65%);
+}
+
+.footer-setup {
+    background: transparent;
+    margin-top: 5%;
+}
+
+.space-top {
+    margin-top: 15%;
+}
+
+.hoverable {
+    cursor: pointer;
+}
+
+.fab-hover {
+    padding: 0 35px;
+}
+
+.fab-hover:hover {
+    color: #4fc3f7;
+    cursor: pointer;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
