@@ -7,32 +7,55 @@
     <link rel="shortcut icon" href="img/default_icon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css"
+        media="screen,projection" />
     <link href="vendor/fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/default.css">
 </head>
 
 <body>
     <div class="section no-pad-bot main-container-setup" id="index-banner">
+        <nav class="" style="background: transparent;" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" class="brand-logo"><img src="img/banner.png" style="padding-bottom: 10px;" height="64"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a id="portfolioSpy">Portfolio</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
         <div class="container">
-            <br><br>
-            <h1 class="header center">About me</h1>
+            <br><br><br><br><br>
+            <h3 class="header center">About me</h3>
             <div class="row center">
                 <h5 class="header col s12 light">
+                    I go by Grant.
+                    <br><br>
+                    I'm a programmer, and I like games. ¯\_(ツ)_/¯
+                    <br><br>
                     I have way too many projects and not enough time.
                     <br><br>
                     I love <a class="light-blue-text text-lighten-3"
-                    href="https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework">C#</a>, 
-                    <a class="light-blue-text text-lighten-3 " href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> and 
-                    <a class="light-blue-text text-lighten-3" href="https://golang.org/">Go</a>; what more is there to say?
+                        href="https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework">C#</a>,
+                    <a class="light-blue-text text-lighten-3 "
+                        href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> and
+                    <a class="light-blue-text text-lighten-3" href="https://golang.org/">Go</a>. And of course learning
+                    new ones.
+                    <br><br>
+                    Currently working on a small game in my spare time, so maybe look out for that.
                     <br><br><br>
-                    Find me at these places
+                    <h5>Find me at these places</h5>
                 </h5>
             </div>
             <div class="row center">
                 <a href="http://github.com/RuthlessBoi" id="githubSpy"><i class="fab fa-github fa-3x fab-hover"></i></a>
                 <a onclick="c2c()" id="discordSpy"><i class="fab fa-discord fa-3x fab-hover"></i></a>
-                <a href="https://twitter.com/Ruthless_bug13" id="twitterSpy"><i class="fab fa-twitter-square fa-3x fab-hover"></i></a>
+                <a href="https://twitter.com/Ruthless_bug13" id="twitterSpy"><i
+                        class="fab fa-twitter-square fa-3x fab-hover"></i></a>
             </div>
             <br><br>
         </div>
@@ -48,13 +71,16 @@
                         <h5 class="center">Projects</h5>
 
                         <p class="light">
-                            I've got A LOT of projects; most of them on my local drives due to being scrapped from Github or Gitlab.
+                            I've got A LOT of projects; most of them on my local drives due to being scrapped from
+                            Github or Gitlab.
                             Mostly because lack of motivation or the project being a dead-end, or just plain boring.
                             <br><br>
-                            I would love to start working on more serious projects once I finish the thousand I already have.
+                            I would love to start working on more serious projects once I finish the thousand I already
+                            have.
                             I'll hopefully have more time to spend on my various projects soon.
                             <br><br>
-                            Any non-scrapped projects can be found <a class="light-blue-text text-lighten-3" href="http://github.com/RuthlessBoi">here</a>.
+                            Any non-scrapped projects can be found <a class="light-blue-text text-lighten-3"
+                                href="http://github.com/RuthlessBoi">here</a>.
                         </p>
                     </div>
                 </div>
@@ -65,7 +91,8 @@
                         <h5 class="center">Featured</h5>
 
                         <p class="light">
-                            I'll probably put big projects I'm working on here, or maybe a new ones. I've got lots of those.
+                            I'll probably put big projects I'm working on here, or maybe a new ones. I've got lots of
+                            those.
                             We'll see, I guess.
                             <br><br>
                             For now, I don't know, go play a game.
@@ -80,8 +107,12 @@
 
     <div class="container space-top">
         <div class="section">
-            <h5 class="center">If theres anything else you need</h5>
-            <h6 class="center">Contact me <a class="light-blue-text text-lighten-3 hoverable" id="discordContactSpy" onclick="c2c()">here</a></h6>
+            <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="material-icons">contact_mail</i></h2>
+                <h5 class="center">If theres anything else you need</h5>
+                <h6 class="center">Contact me <a class="light-blue-text text-lighten-3 hoverable" id="discordContactSpy"
+                        onclick="c2c()">here</a></h6>
+            </div>
         </div>
     </div>
 
@@ -91,15 +122,21 @@
                 <div class="col l6 s12">
                     <h5 class="white-text">Info</h5>
                     <p class="grey-text text-lighten-4">
-                        The project in its entirety can be found <a class="light-blue-text text-lighten-3" href="https://github.com/RuthlessBoi/RuthlessBoi.github.io">here</a>.
+                        The project in its entirety can be found <a class="light-blue-text text-lighten-3"
+                            href="https://github.com/RuthlessBoi/RuthlessBoi.github.io">here</a>.
                         <br><br>
-                        <a class="light-blue-text text-lighten-3" href="https://github.com/RuthlessBoi/RuthlessBoi.github.io/blob/master/LICENSE">LICENSE</a> | <a class="light-blue-text text-lighten-3" href="https://github.com/RuthlessBoi/RuthlessBoi.github.io/blob/master/README">README</a> 
+                        <a class="light-blue-text text-lighten-3"
+                            href="https://github.com/RuthlessBoi/RuthlessBoi.github.io/blob/master/LICENSE">LICENSE</a>
+                        | <a class="light-blue-text text-lighten-3"
+                            href="https://github.com/RuthlessBoi/RuthlessBoi.github.io/blob/master/README">README</a>
                     </p>
                 </div>
                 <div class="col l3 s12">
                     <h5 class="white-text">Help</h5>
                     <ul>
-                        <li><a class="light-blue-text text-lighten-3" href="https://github.com/RuthlessBoi/RuthlessBoi.github.io/issues">Report an issue</a></li>
+                        <li><a class="light-blue-text text-lighten-3"
+                                href="https://github.com/RuthlessBoi/RuthlessBoi.github.io/issues">Report an issue</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col l3 s12">
@@ -114,6 +151,7 @@
         <div class="footer-copyright">
             <div class="container">
                 Made by <a class="light-blue-text text-lighten-3" href="http://github.com/RuthlessBoi">RuthlessBoi</a>
+                <a class="white-text right">Copyright © 2020 All rights reserved</a>
             </div>
         </div>
     </footer>
@@ -122,6 +160,7 @@
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="vendor/materialize/js/materialize.min.js"></script>
     <script src="js/init.js"></script>
 
 </body>
