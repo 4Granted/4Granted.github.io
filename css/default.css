@@ -43,7 +43,7 @@ i.material-icons {
 }
 
 .main-container-setup {
-    background: radial-gradient(#1f262e , transparent 65%);
+    background: radial-gradient(#1f262e, transparent 65%);
 }
 
 .footer-setup {
@@ -51,8 +51,13 @@ i.material-icons {
     margin-top: 5%;
 }
 
-.space-top {
-    margin-top: 15%;
+.spacer {
+    margin-top: 10rem;
+}
+
+.spacer-2 {
+    margin-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .hoverable {
@@ -75,4 +80,3 @@ i.material-icons {
 .icon-block .material-icons {
     font-size: inherit;
 }
-
