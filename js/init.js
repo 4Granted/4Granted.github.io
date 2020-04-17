@@ -38,6 +38,13 @@ const discordId = "Ruthless#5405";
             placement: 'top',
             hideOnClick: false,
         });
+
+        tippy("#ampliusSpy", {
+            content: 'Translates to: "More"; in this case, More.NET',
+            arrow: true,
+            placement: 'top',
+            hideOnClick: false,
+        });
     });
 })(jQuery);
 
