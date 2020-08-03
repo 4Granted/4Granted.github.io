@@ -5,7 +5,7 @@ const discordId = "Ruthless#5405";
         $('.sidenav').sidenav();
 
         tippy('#portfolioSpy', {
-            content: "Hopefully soon",
+            content: "Eventually possible",
             arrow: true,
             placement: 'bottom',
             hideOnClick: false,
@@ -26,14 +26,14 @@ const discordId = "Ruthless#5405";
         });
 
         tippy("#twitterSpy", {
-            content: "Heh, haven't used it ever",
+            content: "Mostly useless",
             arrow: true,
             placement: 'top',
             hideOnClick: false,
         });
 
         tippy("#githubSpy", {
-            content: "All my beloved projects",
+            content: "My projects",
             arrow: true,
             placement: 'top',
             hideOnClick: false,
